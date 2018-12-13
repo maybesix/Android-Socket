@@ -25,4 +25,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //工具类集合依赖，地址 https://github.com/Blankj/AndroidUtilCode
+    implementation 'com.blankj:utilcode:1.22.0'
+    //添加butterknife依赖
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }
