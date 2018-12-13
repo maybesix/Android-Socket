@@ -16,6 +16,9 @@ import top.manycloud.androidsocket.socket.SocketConfig;
 import top.manycloud.androidsocket.socket.client.ClientSocket;
 import top.manycloud.androidsocket.socket.server.ServerSocket;
 
+/**
+ * @author xxh
+ */
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.bt_server_start)
